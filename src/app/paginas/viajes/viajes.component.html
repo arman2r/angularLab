@@ -1,0 +1,10 @@
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat voluptas, nihil eligendi laboriosam minus, dignissimos perferendis autem numquam quisquam, repellendus iste! Dolores, repudiandae vitae! Itaque consectetur neque eum. Animi, dicta.
+
+<p *ngFor="let user of users" (click)="select(user)" [ngClass]="{border: isActive(user)}" class="no-elem">
+  <mat-form-field appearance="outline">
+    <mat-label>Outline form field</mat-label>
+    <input matInput placeholder="Placeholder">
+    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    <mat-hint>Hint</mat-hint>
+  </mat-form-field>
+</p>
